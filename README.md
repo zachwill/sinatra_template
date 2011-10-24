@@ -37,6 +37,7 @@ Heroku
 ------
 
 To upload your application to Heroku, make sure you first have the
-Heroku gem installed and then run:
+Heroku gem installed. Then run the following command (with the name of
+your application substituted for `app_name`):
 
     heroku create app_name --stack cedar
