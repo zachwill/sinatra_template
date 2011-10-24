@@ -1,9 +1,9 @@
-require 'sinatra'
+require 'sinatra/base'
 require 'sinatra/contrib'
 
 
 class Main < Sinatra::Base
-  helpers Sinatra::ContentFor
+  register Sinatra::Contrib
 
   get '/' do
     erb :home
