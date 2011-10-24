@@ -2,7 +2,7 @@ require 'sinatra/base'
 require 'sinatra/contrib'
 
 
-class Main < Sinatra::Base
+class App < Sinatra::Base
   register Sinatra::Contrib
 
   get '/' do
