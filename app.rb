@@ -12,4 +12,8 @@ class App < Sinatra::Base
   get '/about/' do
     erb :about
   end
+
+  get '/json' do
+    json :foo => 'bar', :code => 'america'
+  end
 end
